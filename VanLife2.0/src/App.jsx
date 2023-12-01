@@ -1,22 +1,21 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-
-
-function AboutPage() {
-  return <h1>About Page</h1>
-}
-
-function Home() {
-  return <h1>Home Page</h1>
-}
+import Header from './components/Header'
+import Footer from './components/Footer'
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+import Home from './components/Home'
+import About from './components/About'
+import Vans from './components/Vans'
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/about' element={<AboutPage />}/>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/vans' element={<Vans />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
