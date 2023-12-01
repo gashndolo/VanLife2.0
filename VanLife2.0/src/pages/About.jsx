@@ -1,6 +1,5 @@
 import IMAGES from "../images/images"
 
-
 export default function About() {
     return (
         <div>
