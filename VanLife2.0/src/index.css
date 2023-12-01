@@ -9,7 +9,14 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 /* -------------------------- Header -------------------------- */
 nav {
   display: flex;
