@@ -1,4 +1,3 @@
-import IMAGES from "../images/images"
 
 
 export default function Home() {
