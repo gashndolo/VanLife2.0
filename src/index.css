@@ -140,6 +140,11 @@ nav > ul > li > a{
   margin-bottom: 50px;
 }
 
+.van-list-container a {
+  color: #161616;
+  text-decoration: none;    
+}
+
 .van-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -148,10 +153,7 @@ nav > ul > li > a{
   margin-top: 57px;
 }
 
-.van-tile a {
-  color: #161616;
-  text-decoration: none;    
-}
+
 
 .van-tile img {
   max-width: 100%;
@@ -221,10 +223,67 @@ i[class*='van-type-'] {
   justify-content: space-between;
   padding: 0 5px;
 }
-.van--info > h3 > span {
+.van--info > h2 > span {
   font-size: 0.9rem;
 }
+/* -------------------------- Van Detail -------------------------- */
 
+
+.van-detail-container {
+  padding: 27px;
+}
+
+.van-detail-container .back-button {
+  color: black;
+  text-decoration: none;
+}
+
+.van-detail-container .back-button:visited {
+  
+}
+
+.van-detail-container .back-button span {
+  text-decoration: underline;
+}
+
+.van-detail {
+  display: flex;
+  flex-direction: column;
+  color: #161616;
+}
+
+.van-detail img {
+  border-radius: 5px;
+  margin-block: 47px;
+}
+
+.van-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.van-detail > i {
+  align-self: flex-start;
+}
+
+.van-detail .van-price {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.van-detail .van-price span {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.van-detail .link-button {
+  background-color: #FF8C38;
+  color: white;
+  font-size: 1.125rem;
+  height: 49px;
+  border: none;
+  border-radius: 5px;
+}
 
 /* -------------------------- Footer -------------------------- */
 
