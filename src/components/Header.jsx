@@ -6,6 +6,7 @@ export default function Header() {
         <nav>
             <Link to="/"><img src={IMAGES.logo} alt="Van Life Logo" className="logo"/></Link>
             <ul>
+                <li><Link to="/host">Host</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/vans">Vans</Link></li>
             </ul>

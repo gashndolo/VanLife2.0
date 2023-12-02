@@ -231,6 +231,8 @@ i[class*='van-type-'] {
 
 .van-detail-container {
   padding: 27px;
+  display: flex;
+  justify-content: center;
 }
 
 .van-detail-container .back-button {
@@ -250,6 +252,7 @@ i[class*='van-type-'] {
   display: flex;
   flex-direction: column;
   color: #161616;
+  width: 80%;
 }
 
 .van-detail img {
