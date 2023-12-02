@@ -45,6 +45,13 @@ nav > ul > li > a{
 .logo {
   height: 41px;
 }
+
+.active,
+nav > ul > li > a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #161616;
+}
 /* -------------------------- Home -------------------------- */
 
 .home--container {
