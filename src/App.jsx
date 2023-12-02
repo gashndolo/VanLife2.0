@@ -8,6 +8,7 @@ import Layout from './components/Layout'
 import Dashboard from './pages/host/Dashboard'
 import Income from './pages/host/Income'
 import Reviews from './pages/host/Reviews'
+import HostLayout from './components/HostLayout'
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/vans' element={<Vans />} />
           <Route path='/vans/:id' element={<VanDetail />} />
-          <Route path='/host'>
-            <Route end element={<Dashboard />} />
+          <Route path='/host' element={<HostLayout />}>
+            <Route index element={<Dashboard />} />
             <Route path='income' element={<Income />} />
             <Route path='reviews' element={<Reviews />} />
           </Route>
